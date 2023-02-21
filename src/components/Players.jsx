@@ -3,7 +3,87 @@ import React from "react";
 const Booking = () => {
   return (
     <div id="players" className="max-w-[1140px] m-auto p-4 w-full px-4 py-16">
-      <h2 className="text-center text-gray-700 p-4">Players Bio</h2>
+      <h2 className="text-center text-red-700 p-4">Players Bio</h2>
+      <div className="flex flex-wrap justify-center">
+        <div className="flex flex-col bg-gray-200 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+          <h2 className="text-center text-red-800 px-2 p-4 ">GOALKEEPERS</h2>
+          <p className="text-center text-red-600 px-2 p-1 ">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1 pb-4">
+            Adebankole Olowojoba
+          </p>
+        </div>
+        <div className="flex flex-col bg-gray-200 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+          <h2 className="text-center text-red-800 px-2 p-4">DEFENDERS</h2>
+          <p className="text-center text-red-600 px-2 p-1 ">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1">Stephen Ogunjobi</p>
+          <p className="text-center text-red-600 px-2 p-1 pb-4">
+            Stephen Ogunjobi
+          </p>
+        </div>
+        <div className="flex flex-col bg-gray-200 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+          <h2 className="text-center text-red-800 px-2 p-4">MIDFIELDER</h2>
+          <p className="text-center text-red-600 px-2 p-1 ">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1 pb-4">
+            Adebankole Olowojoba
+          </p>
+        </div>
+        <div className="flex flex-col bg-gray-200 rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-52">
+          <h2 className="text-center text-red-800 px-2 p-4">ATTACKERS</h2>
+          <p className="text-center text-red-600 px-2 p-1 ">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1">
+            Adebankole Olowojoba
+          </p>
+          <p className="text-center text-red-600 px-2 p-1 pb-4">
+            Adebankole Olowojoba
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

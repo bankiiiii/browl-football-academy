@@ -14,7 +14,7 @@ const TopBar = () => {
             className="w-10 h-10 gap-4 flex text-[var(--primary-dark)] mr-2 "
           />
         </div>
-        <h1 className="text-xl font-bold text-green-700">
+        <h1 className="text-xl font-bold text-red-700">
           Browl Football Academy
         </h1>
       </div>

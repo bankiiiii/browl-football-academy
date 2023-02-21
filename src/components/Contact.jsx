@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import TEAM from "../assets/browlfc.jpeg";
 
 const Contact = () => {
   const form = useRef();
@@ -26,13 +27,13 @@ const Contact = () => {
 
   return (
     <div id="contact" className="max-w-[1140px] m-auto w-full p-4 py-16">
-      <h2 className="text-center text-gray-700 ">Send us a Message</h2>
-      <p className="text-center text-gray-700 py-2">We're standing by!</p>
+      <h2 className="text-center text-red-700 ">Send us a Message</h2>
+      <p className="text-center text-red-700 py-2">We're standing by!</p>
 
       <div className="grid md:grid-cols-2 ">
         <img
           className="w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]"
-          src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c29jY2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          src={TEAM}
           alt="/"
         />
         <form action="" ref={form} onSubmit={sendEmail}>
@@ -98,3 +99,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c29jY2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60

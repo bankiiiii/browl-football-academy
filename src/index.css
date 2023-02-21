@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --primary-dark: #5651e5;
-  --primary-light: #709dff;
+  --primary-dark: #ff0000;
+  --primary-light: #d34444;
 }
 
 @layer base {
@@ -34,3 +34,6 @@
     @apply text-xl font-bold;
   }
 }
+
+/* --primary-dark: #5651e5; */
+/* --primary-light: #709dff; */

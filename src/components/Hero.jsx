@@ -12,15 +12,15 @@ const Hero = () => {
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
           <h1 className="font-bold text-4xl">DISCOVER YOURSELF</h1>
           <h2 className="text-4xl py-4 italic">
-            with <span className="text-black"> BrowlFAC </span>
+            with <span className="text-red-700"> BrowlFAC </span>
           </h2>
-          <p className="text-gray-800">
+          <p className="text-white">
             Are you willing to challenge yourself everyday to be better than you
             were yesterday? Do you have a burning passion for football and the
             drive required to set you apart from your competitors? Join us at
             Browl Football Academy and you'll be joining a club, a community, a
             family. Where better never stops.
-            <span className="font-bold text-gray-900 ml-1">UP BROWLFAC!</span>
+            <span className="font-bold text-red-700 ml-1">UP BROWLFAC!</span>
           </p>
         </div>
       </div>

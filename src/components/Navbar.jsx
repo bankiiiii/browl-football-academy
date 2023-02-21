@@ -16,19 +16,27 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="w-full min-h-[50px] flex justify-between absolute items-center  z-10 text-white bg-gray-700/80">
-      <ul className="hidden sm:flex px-4">
+    <div className="w-full min-h-[50px] flex justify-between absolute items-center  z-10 text-white bg-red-500/80">
+      <ul className="hidden sm:flex px-4 ">
         <li>
-          <a href="/">Home</a>
+          <a href="/" className="hover:text-red-700">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#gallery">Gallery</a>
+          <a href="#gallery" className="hover:text-red-700">
+            Gallery
+          </a>
         </li>
         <li>
-          <a href="#players">Players</a>
+          <a href="#players" className="hover:text-red-700">
+            Players
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" className="hover:text-red-700">
+            Contact
+          </a>
         </li>
       </ul>
 
@@ -45,11 +53,11 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FaTwitter className="mx-4 hover:text-green-700" />
+          <FaTwitter className="mx-4 hover:text-red-700" />
         </a>
-        <FaFacebookF className="mx-4 hover:text-green-700" />
-        <FaGooglePlusG className="mx-4 hover:text-green-700" />
-        <FaInstagram className="mx-4 hover:text-green-700" />
+        <FaFacebookF className="mx-4 hover:text-red-700" />
+        <FaGooglePlusG className="mx-4 hover:text-red-700" />
+        <FaInstagram className="mx-4 hover:text-red-700" />
       </div>
       {/* hamburger styling*/}
 
